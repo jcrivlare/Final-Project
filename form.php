@@ -9,9 +9,9 @@ $form->processForm(
 
 	'jacquelinecrivlare.com' // Put you mail domain here
 	,
-	'Web Design Principles' // Put your site name / form name here
+	'Jacqueline Crivlare' // Put your site name / form name here
 	,
-	'jcrivlare@ufl.edu' // Where will the form notification be sent?
+	'jcrivlare@gmail.com' // Where will the form notification be sent?
 	,
 	'noreply@jacquelinecrivlare.com' // This what the form FROM: address wil be, if the form submissions doesn't contain an email field
 

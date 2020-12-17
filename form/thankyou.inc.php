@@ -5,43 +5,88 @@
   border: 0;
 }
 
+@font-face {
+  font-family: 'Cherolina';
+  src: url('../fonts/Cherolina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neoterice';
+  src: url('../fonts/Neoterice.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nova';
+  src: url('../fonts/Nova.otf') format('opentype');
+
+}
 body {
   background: #F1DADA;
 }
 
-.container {
-  max-width: 900px;
-  margin: 50px auto 180px;
+header {
+  background: black;
+  padding: 35px 0;
   text-align: center;
 }
 
-header {
+h1 {
+  font-weight: 1;
+  font-size: 150px;
+  font-family: 'Cherolina', 'Mina', cursive;
+}
+
+h2 {
+  font-family: 'Cherolina', 'Mina', cursive;
+  font-weight: 1;
+  font-size: 100px;
   text-align: center;
-  background: black;
-  padding: 20px 0;
+  margin: 20px;
+  padding: 20px;
+}
+
+p {
+  font-family: 'Neoterice', 'Nova', sans-serif;
+  text-transform: lowercase;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-all {
+  background: #F1DADA;
+  margin: 50px;
+  padding: 50px;
+  border: 5px solid white;
+}
+
+.container-all p {
+  font-size: 25px;
+  letter-spacing: 8px;
 }
 
 nav ul li {
   display: inline;
+  font-family: 'Neoterice', 'Nova', sans-serif;
+  font-size: 20px;
 }
 
 nav a {
   text-decoration: none;
-  color: black;
-  background: white;
-  padding: 5px;
-}
-footer {
-  text-align: center;
-  background: black;
-  padding: 20px 0;
   color: white;
+  padding: 50px;
+  letter-spacing: 8px;
+}
+
+footer {
+  background: black;
+  position: absolute;
 }
 
 footer a {
-  text-align: center;
   color: white;
-  font-size: 25px;
+  font-size: 35px;
   margin: 0 5px;
   transition: .3s;
 }
@@ -50,29 +95,44 @@ footer a:hover {
   color: grey;
   transition: .3s;
 }
+
+footer img {
+  margin: 0 5px;
+  width: 10%;
+  float: right;
+  margin-left: 1350px;
+}
 </style>
 
+
 <header>
-  <nav>
+<div class="container-all">
+  <h1>Jacqueline Crivlare</h1>
+  <p>Professional Dancer</p>
+</div>
+
+  <nav class="menu">
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
-      <li><a href="work/liveperformance.html">Work/Live Performance</a></li>
+      <li><a href="work&liveperformance.html">Work&Live Performance</a></li>
       <li><a href="gallery.html">Gallery</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="conatiner">
-  <h1>Thank you for your enquiry!</h1>
+<div class="container">
+  <h2>Thank you for your inquiry!</h2>
   <p>Thank you for your interest! I have received your message, and I will be in touch shortly.</p>
 </div>
 
 <footer>
-  <p>Website by Jacqueline Crivlare | Follow me at
-    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-square"></i></a>
-    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram-square"></i></a>
-    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-  </p>
+  <a href="https://facebook.com/jackie.crivlare" target="_blank"><i class="fab fa-facebook-square"></i></a>
+  <a href="https://instagram.com/jackiecriv" target="_blank"><i class="fab fa-instagram-square"></i></a>
+  <a href="https://linkedin.com/in/jacqueline-crivlare-b5107b159/" target="_blank"><i class="fab fa-linkedin"></i></a>
+
+  <section>
+    <img src="images/jclogo.jpg" alt="JC Logo" title="JC Logo" />
+  </section>
 </footer>
