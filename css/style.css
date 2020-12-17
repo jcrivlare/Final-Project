@@ -1,0 +1,338 @@
+/*===========================
+
+Universal Styling
+
+=============================*/
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+@font-face {
+  font-family: 'Cherolina';
+  src: url('../fonts/Cherolina.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Neoterice';
+  src: url('../fonts/Neoterice.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nova';
+  src: url('../fonts/Nova.otf') format('opentype');
+
+}
+body {
+  background: #F1DADA;
+}
+
+header {
+  background: black;
+  padding: 35px 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 1;
+  font-size: 150px;
+}
+
+h1,
+h2 {
+  font-family: 'Cherolina', 'Mina', cursive;
+}
+
+p {
+  font-family: 'Neoterice', 'Nova', sans-serif;
+  text-transform: lowercase;
+}
+
+.container-all {
+  background: #F1DADA;
+  margin: 50px;
+  padding: 50px;
+  border: 5px solid white;
+}
+
+.container-all p {
+  font-size: 25px;
+  letter-spacing: 8px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 50px;
+  letter-spacing: 8px;
+}
+
+footer {
+  background: black;
+  position: absolute;
+}
+
+footer a {
+  color: white;
+  font-size: 35px;
+  margin: 0 5px;
+  transition: .3s;
+}
+
+footer a:hover {
+  color: grey;
+  transition: .3s;
+}
+
+footer img {
+  margin: 0 5px;
+  width: 10%;
+  float: right;
+  margin-left: 1350px;
+}
+/*===========================
+
+Home Styling
+
+=============================*/
+.home img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border: 5px solid white;
+}
+/*===========================
+
+About Styling
+
+=============================*/
+.about-top img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid white;
+}
+
+.about-top h2 {
+  font-size: 100px;
+}
+
+.about-top p {
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  text-align: center;
+  font-size: 20px;
+}
+
+h3 {
+  font-family: 'Cherolina', 'Mina', cursive;
+  float: left;
+  font-size: 100px;
+  font-weight: 1;
+  margin: 0 150px;
+}
+
+h4 {
+  font-size: 100px;
+  font-family: 'Cherolina', 'Mina', cursive;
+  float: right;
+  font-weight: 1;
+  margin: 0 150px;
+}
+
+.dance {
+  margin-left: 90px;
+  border: 5px solid white;
+  float: left;
+  clear: both;
+}
+
+.yoga {
+  float: right;
+  margin-right: 90px;
+  border: 5px solid white;
+}
+
+.about-bottom {
+  padding: 20px;
+  margin-left: 225px;
+  display: inline-block;
+}
+
+.pseudo {
+    margin-left: 200px;
+}
+
+.pseudo p:last-child {
+  text-align: right;
+}
+
+.pseudo p:first-child,
+.pseudo p:last-child {
+  display: inline-block;
+  margin: 0 57px;
+  margin-bottom: 20px
+}
+
+.pseudo p::selection {
+  background: black;
+  color: #F1DADA;
+}
+/*===========================
+
+Work&Live Performance Styling
+
+=============================*/
+.workliveperformance {
+  text-align: center;
+}
+
+.workliveperformance img {
+  margin: 20px;
+  border: 5px solid white;
+  box-shadow: 10px 5px 5px black;
+}
+
+h2 {
+  text-align: center;
+  font-size: 75px;
+  font-weight: 1;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+  padding: 20px;
+}
+
+li {
+  font-family: 'Neoterice', sans-serif;
+  font-size: 20px;
+  text-transform: lowercase;
+}
+/*===========================
+
+Gallery Styling
+
+=============================*/
+.gallery img {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%
+}
+
+.gallery1,
+.gallery2,
+.gallery3,
+.gallery4,
+.gallery5,
+.gallery6,
+.gallery7,
+.gallery8,
+.gallery9,
+.gallery10,
+.gallery11,
+.gallery12,
+.gallery13,
+.gallery14,
+.gallery15,
+.gallery16 {
+  border: 5px solid white;
+}
+
+section.gallery {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%
+}
+
+details,
+ul li {
+  font-size: 20px;
+  font-family: 'Neoterice', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  list-style: none;
+}
+/*===========================
+
+Contact Styling
+
+=============================*/
+.contact-container {
+  margin: 50px 0px 180px;
+  text-align: center;
+  font-size: 20px;
+  padding-left: 600px;
+  position: absolute;
+}
+
+.contact-container h2{
+  font-size: 150px;
+}
+
+.contact-bottom-text {
+  margin: 50px;
+  padding: 50px;
+}
+
+.contact-bottom-text h2 {
+  font-size: 75px;
+}
+
+.contact-bottom-text p {
+  color: white;
+  font-size: 18px;
+  text-shadow: 2px 2px 4px #000000;
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
+}
+
+.contact-bottom-image img {
+  border: 5px solid white;
+  box-shadow: 10px 5px 5px black;
+}
+
+.contact-bottom-image {
+  float: right;
+  margin-right: 50px;
+  padding: 20px;
+}
+
+.contact-images img {
+  display: block;
+  margin: 50px;
+  border: 5px solid white;
+  box-shadow: 5px 5px 5px black;
+}
+
+form#test_form {
+    font-family: 'Neoterice', sans-serif;
+}
+
+input[type="submit"] {
+    font-family: 'Neoterice', sans-serif;
+}
